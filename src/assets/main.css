@@ -1,0 +1,71 @@
+@tailwind preflight;
+
+.topbar {
+  @apply .p-3;
+  background: #333333;
+}
+
+.footer {
+  @apply .p-3;
+  background: #333333;
+}
+
+.header {
+  @apply .text-xl .font-bold .italic;
+  text-transform: uppercase;
+}
+
+.menu {
+  @apply .font-bold .text-lg .mb-1;
+}
+
+a {
+  text-decoration: none;
+  @apply .text-red-darker;
+}
+
+a:hover {
+  @apply .text-grey;
+}
+
+.bodytext {
+  @apply .font-light .text-grey-darker .leading-normal .tracking-normal;
+}
+
+.heroimg {
+  background-image: linear-gradient(
+      to right,
+      rgb(64, 64, 64, 0.8),
+      rgb(64, 64, 64, 0.8)
+    ),
+    url(bg2.jpg);
+  background-attachment: fixed;
+  background-position: 50%;
+}
+
+.btntext-quote {
+  @apply .tracking-wide .text-center .font-light .text-white .text-xl;
+}
+
+.btntext-services {
+  @apply .tracking-wide .text-center .font-light .text-white text-xl;
+}
+
+.button-quote {
+  @apply .rounded-full .px-16 .py-2 .border-transparent .bg-red-darkest .opacity-75;
+}
+
+.button-services {
+  @apply .rounded-full .px-16 .py-2 .border .border-white .opacity-75;
+}
+
+.button-quote:hover {
+  @apply .border-black .bg-white .text-black .font-normal;
+}
+
+.button-services:hover {
+  @apply .border-transparent .bg-red-darkest .text-white .font-normal;
+}
+
+@tailwind components;
+@tailwind utilities;
