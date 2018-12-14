@@ -2,16 +2,14 @@
 
 .topbar {
   @apply .p-3;
-  background: #333333;
 }
 
 .footer {
-  @apply .p-3;
-  background: #333333;
+  @apply .p-3 .bg-blue-darker;
 }
 
 .header {
-  @apply .text-xl .font-bold .italic;
+  @apply .text-xl .font-bold .italic .text-blue-darker;
   text-transform: uppercase;
 }
 
@@ -21,25 +19,28 @@
 
 a {
   text-decoration: none;
-  @apply .text-red-darker;
+  @apply .text-blue-darker;
 }
 
 a:hover {
-  @apply .text-grey;
+  @apply .text-blue;
 }
 
 .bodytext {
-  @apply .font-light .text-grey-darker .leading-normal .tracking-normal;
+  @apply .font-light .text-grey-darkest .leading-normal .tracking-normal;
+}
+
+.maintext {
+  @apply .font-light .text-grey-darkest .leading-loose .tracking-normal .text-lg .text-center;
 }
 
 .heroimg {
   background-image: linear-gradient(
       to right,
-      rgb(64, 64, 64, 0.8),
-      rgb(64, 64, 64, 0.8)
+      rgb(64, 64, 64, 0),
+      rgb(64, 64, 64, 0)
     ),
-    url(bg2.jpg);
-  background-attachment: fixed;
+    url(bg3.jpg);
   background-position: 50%;
 }
 

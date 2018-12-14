@@ -9,17 +9,17 @@
   },
   "dependencies": {
     "postcss-purgecss": "^1.0.0",
-    "tailwindcss": "^0.7.0",
+    "tailwindcss": "^0.7.2",
     "vue": "^2.5.17",
     "vue-fixed-header": "^2.0.2"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.1.0",
-    "@vue/cli-plugin-eslint": "^3.1.0",
-    "@vue/cli-service": "^3.1.0",
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-plugin-eslint": "^3.2.1",
+    "@vue/cli-service": "^3.2.0",
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0-0",
+    "eslint": "^5.9.0",
+    "eslint-plugin-vue": "^5.0.0-beta.5",
     "vue-template-compiler": "^2.5.17"
   },
   "eslintConfig": {
