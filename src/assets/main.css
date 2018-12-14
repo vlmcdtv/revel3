@@ -1,11 +1,11 @@
 @tailwind preflight;
 
 .wave-one {
-  background: rgb(34, 193, 195);
+  und: rgb(5, 127, 129);
   background: linear-gradient(
     0deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(253, 187, 45, 1) 100%
+    rgba(5, 127, 129, 1) 0%,
+    rgba(3, 76, 77, 1) 79%
   );
 }
 
