@@ -1,5 +1,32 @@
 @tailwind preflight;
 
+.wave-one {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+
+.wave-two {
+  background: linear-gradient(
+    to bottom,
+    #97125e,
+    #99277a,
+    #943a95,
+    #894db1,
+    #7460ca,
+    #586acd,
+    #3872cd,
+    #0078ca,
+    #0074ae,
+    #006b8d,
+    #00606b,
+    #05544f
+  );
+}
+
 .topbar {
   @apply .p-3;
 }
