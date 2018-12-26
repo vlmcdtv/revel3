@@ -1,29 +1,20 @@
 @tailwind preflight;
 
 .wave-one {
-  und: rgb(5, 127, 129);
+  background: rgb(0, 153, 125);
   background: linear-gradient(
     0deg,
-    rgba(5, 127, 129, 1) 0%,
-    rgba(3, 76, 77, 1) 79%
+    rgba(0, 153, 125, 1) 0%,
+    rgba(0, 102, 83, 1) 100%
   );
 }
 
 .wave-two {
+  background: rgb(38, 37, 37);
   background: linear-gradient(
-    to bottom,
-    #97125e,
-    #99277a,
-    #943a95,
-    #894db1,
-    #7460ca,
-    #586acd,
-    #3872cd,
-    #0078ca,
-    #0074ae,
-    #006b8d,
-    #00606b,
-    #05544f
+    0deg,
+    rgba(38, 37, 37, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
   );
 }
 
