@@ -1,6 +1,58 @@
 @tailwind preflight;
 
-.wave-one {
+.holder {
+  display: grid;
+  /* grid-gap: 5px; */
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1 1 1 1;
+  grid-template-areas:
+    "m m m m"
+    "i i i i"
+    "h h h h"
+    "c c c c"
+    "f f f f";
+}
+
+.header1 {
+  grid-area: h;
+  /* background: #92e4ee; */
+  @apply p-2;
+}
+.menu1 {
+  grid-area: m;
+  background: #0d3976;
+  @apply p-2;
+}
+.content1 {
+  grid-area: c;
+  /* background: #92e4ee; */
+  @apply p-2;
+}
+.footer1 {
+  grid-area: f;
+  background: #0d3976;
+  @apply p-2;
+}
+
+.hero1 {
+  grid-area: i;
+}
+
+@media screen and (max-width: 640px) {
+  .holder {
+    grid-template-areas:
+      "m m h h"
+      "i i i i"
+      "c c c c"
+      "f f f f";
+  }
+}
+
+.heroimg {
+  background-image: url(mountain.jpg);
+}
+
+/* .wave-one {
   background: rgb(0, 153, 125);
   background: linear-gradient(
     0deg,
@@ -84,7 +136,7 @@ a:hover {
 
 .button-services:hover {
   @apply .border-transparent .bg-red-darkest .text-white .font-normal;
-}
+} */
 
 @tailwind components;
 @tailwind utilities;
